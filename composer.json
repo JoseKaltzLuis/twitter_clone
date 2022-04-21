@@ -1,0 +1,19 @@
+{
+	"name": "miniframework",
+	"require": {
+		"php": ">= 7.0",
+		"voku/anti-xss": "^4.1"
+	},
+	"authors": [
+		{
+			"name": "Jorge Sant Ana",
+			"email": "jorge@teste.com.br"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+}
